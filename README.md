@@ -13,9 +13,9 @@ Very early, one proof of concept that linearizes the page you are looking at.
 
 Open this <a href="https://alastairc.ac/tests/layouts/pixels.html">test-layout page</a> and select one of the 'linearise' links on the right.
 
-You can save this <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://alastairc.ac/tests/layouts/linearise.js';})();">Linearize</a> link to you browser's bookmarks and apply it to any site. 
+You can save the Linearize link on the demo page to you browser's bookmarks and apply it to any site. 
 
-Well, unless they have <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP">CSP</a> preventing external scripts, in which case it won't work. Like Github does.
+Well, unless the site has a <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP">Content Security Policy</a> preventing external scripts, in which case it won't work. Like Github does.
 
 ## To Do
 
