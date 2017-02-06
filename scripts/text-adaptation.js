@@ -1,3 +1,5 @@
+// Combination of spacing, font-family and change-colour
+
 // Initial bookmarklet code from https://www.smashingmagazine.com/2010/05/make-your-own-bookmarklets-with-jquery/ 
 
 
@@ -26,10 +28,21 @@
 		(window.myBookmarklet = function() {
 			
 
-			// Blunt instriment so far: just change everything.
+			// Color
 			$("*").css('color', 'black');
 			$("*").css('background-color', '#fff');
 			$("*").css('background-image', 'none !important');
+
+			// font family
+			$("*").css('font-family', '"Verdana"');
+
+			// Spacing
+			var wordElements = $('p, li, h1, h2, h3, h4, h5, h6');
+
+			$(wordElements).css("letter-spacing", "0.1em");
+			$(wordElements).css("line-height", "1.5");
+			$(wordElements).css("word-spacing", "0.03em");
+
 
 		})();
 	}

@@ -24,11 +24,10 @@
 	
 	function initMyBookmarklet() {
 		(window.myBookmarklet = function() {
-			
-			// Neutralise layout CSS
 
-			// Generally applicable
-			$("*").css('font-family', '"Comic Sans MS"');
+
+			// This seems generally applicable so far.
+			$("*").css('font-family', '"Verdana"');
 
 		})();
 	}

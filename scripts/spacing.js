@@ -24,12 +24,13 @@
 	
 	function initMyBookmarklet() {
 		(window.myBookmarklet = function() {
-			
 
-			// Blunt instriment so far: just change everything.
-			$("*").css('color', 'black');
-			$("*").css('background-color', '#fff');
-			$("*").css('background-image', 'none !important');
+			// Pick standard wording things, NB: We might need to make wider in scope in future.
+			var wordElements = $('p, li, h1, h2, h3, h4, h5, h6');
+
+			$(wordElements).css("letter-spacing", "0.1em");
+			$(wordElements).css("line-height", "1.5em");
+			$(wordElements).css("word-spacing", "0.03em");
 
 		})();
 	}
