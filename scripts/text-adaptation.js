@@ -34,7 +34,7 @@
 			$("*").css('background-image', 'none !important');
 
 			// font family
-			$("*").css('font-family', '"Verdana"');
+			$("*:not([role='img'])").css('font-family', '"Verdana"');
 
 			// Spacing
 			var wordElements = $('p, li, h1, h2, h3, h4, h5, h6');
