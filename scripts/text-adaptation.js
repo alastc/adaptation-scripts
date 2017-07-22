@@ -26,23 +26,14 @@
 	
 	function initMyBookmarklet() {
 		(window.myBookmarklet = function() {
-			
-
-			// Color
-			$("*").css('color', 'black');
-			$("*").css('background-color', '#fff');
-			$("*").css('background-image', 'none !important');
-
-			// font family
-			$("*:not([role='img'])").css('font-family', '"Verdana"');
 
 			// Spacing
 			var wordElements = $('p, li, h1, h2, h3, h4, h5, h6');
 
-			$(wordElements).css("letter-spacing", "0.1em");
 			$(wordElements).css("line-height", "1.5");
-			$(wordElements).css("word-spacing", "0.03em");
-
+			$('p').css("margin-bottom", "2em");
+			$(wordElements).css("letter-spacing", "0.12em");
+			$(wordElements).css("word-spacing", "0.16em");
 
 		})();
 	}
