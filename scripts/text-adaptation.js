@@ -27,13 +27,13 @@
 	function initMyBookmarklet() {
 		(window.myBookmarklet = function() {
 
-			// Spacing
-			var wordElements = $('p, li, h1, h2, h3, h4, h5, h6');
+			
+			// var wordElements = $('p, li, h1, h2, h3, h4, h5, h6');
 
-			$(wordElements).css("line-height", "1.5");
+			$("*").css("line-height", "1.5");
 			$('p').css("margin-bottom", "2em");
-			$(wordElements).css("letter-spacing", "0.12em");
-			$(wordElements).css("word-spacing", "0.16em");
+			$("*").css("letter-spacing", "0.12em");
+			$("*").css("word-spacing", "0.16em");
 
 		})();
 	}
