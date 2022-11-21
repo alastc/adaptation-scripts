@@ -11,7 +11,7 @@ Very early, one proof of concept that linearizes the page you are looking at.
 
 ## Demo
 
-Open this <a href="https://alastairc.ac/tests/layouts/pixels.html">test-layout page</a> and select one of the 'linearise' links on the right.
+Open this <a href="https://alastairc.uk/tests/layouts/pixels.html">test-layout page</a> and select one of the 'linearise' links on the right.
 
 You can save the Linearize link on the demo page to you browser's bookmarks and apply it to any site. 
 
